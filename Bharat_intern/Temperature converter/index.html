@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <div class="input-container">
+            <input type="number" id="inputTemp" placeholder="Enter temperature">
+            <select id="fromUnit">
+                <option value="celsius">Celsius (°C)</option>
+                <option value="fahrenheit">Fahrenheit (°F)</option>
+                <option value="kelvin">Kelvin (K)</option>
+                <option value="rankine">Rankine (°R)</option>
+            </select>
+        </div>
+        <button id="convertButton">Convert</button>
+        <div id="result"></div>
+    </div>
+
+    <div class="unit-info">
+        <div class="unit">
+            <img src="celcius.png" alt="Celsius">
+            <h2>Celsius (°C)</h2>
+            <p>Celsius is a unit of temperature measurement. It is widely used in most of the world, especially in scientific contexts. Water boils at 100°C under standard atmospheric conditions.</p>
+        </div>
+        <div class="unit">
+            <img src="farenhite.jpg" alt="Fahrenheit">
+            <h2>Fahrenheit (°F)</h2>
+            <p>Fahrenheit is a temperature scale used primarily in the United States. Water freezes at 32°F and boils at 212°F under standard atmospheric conditions.</p>
+        </div>
+        <div class="unit">
+            <img src="kelvin.jpg" alt="Kelvin">
+            <h2>Kelvin (K)</h2>
+            <p>Kelvin is an absolute temperature scale used in scientific and engineering applications. It starts at absolute zero, where nothing could be colder.</p>
+        </div>
+        <div class="unit">
+            <img src="rankine.png" alt="Rankine">
+            <h2>Rankine (°R)</h2>
+            <p>Rankine is a temperature scale that is rarely used but still has some applications, especially in engineering. It's similar to the Fahrenheit scale but starts at absolute zero.</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2023 Temperature Converter</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
